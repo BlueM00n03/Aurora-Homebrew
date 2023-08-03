@@ -3,7 +3,7 @@
 	<info>
 		<name>Wondrous Items</name>
 		<update version="0.1.0">
-			<file name="items-weapons.xml" />
+			<file name="items-weapons.xml" url="https://raw.githubusercontent.com/BlueM00n03/Aurora-Homebrew/main/items-weapons.xml"/>
 		</update>
 	</info>
 	<element name="Fang of Adarogg" type="Magic Weapon" source="Homebrew" id="ID_HBW_WEAPON_FANG_ADAROGG">
