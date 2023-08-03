@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<elements>
+	<info>
+		<name>Wondrous Items</name>
+		<update version="0.1.0">
+			<file name="items-weapons.xml" />
+		</update>
+	</info>
+	<element name="Fang of Adarogg" type="Magic Weapon" source="Homebrew" id="ID_HBW_WEAPON_FANG_ADAROGG">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_PROPERTY_THROWN</supports>
+		<description>
+			<p>
+				The weapon has 2 charges and regains all expended charges
+				daily at dawn or when an attack made with the dagger kills a
+				beast or humanoid. When attacking with this weapon, you
+				may spend a charge before the attack roll to add 1d4 fire
+				damage to the damage roll.
+			</p>
+			<p>
+				Curse. This dagger is cursed. Attuning to it curses you until
+				you are targeted by the remove curse spell or similar magic.
+				Removing the dagger fails to end the curse on you. You have
+				an insatiable appetite and must consume twice as much as
+				before. You have also developed a particular taste for trogg
+				flesh.
+			</p>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="range">20/60</set>
+			<set name="damage" type="piercing">1d4</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_DAGGER</set>
+			<set name="rarity">Uncommon</set>
+			<set name="attunement">true</set>
+			<set name="charges">2</set>
+		</setters>
+	</element>
+</elements>
